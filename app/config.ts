@@ -38,8 +38,8 @@ export const socialLinks = {
   linkedin: "https://linkedin.com/in/hayyamyalcin",
   email: "mailto:hayyamyalcin@hotmail.com",
   // phone: "tel:+905060668012",
-  // twitter: "https://twitter.com/yourusername", // Replace if you have
-  // instagram: "https://instagram.com/yourusername", // Replace if you have
+  twitter: "https://twitter.com/yourusername", // Replace if you have
+  instagram: "https://instagram.com/yourusername", // Replace if you have
   // website: "https://yourportfolio.com" // Add if you have
 };
 
