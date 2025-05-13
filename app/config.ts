@@ -46,7 +46,8 @@ export const socialLinks = {
 
 export const metaData = {
   baseUrl: "https://porfollo-b6ldujz5p-hayyam-nazim-yalcins-projects.vercel.app/",
-  title: "Hayyam Nazım Yalçın | Full Stack Developer",
+  // title: "Hayyam Nazım Yalçın | Full Stack Developer",
+  title: " ",
   name: "Hayyam Nazım Yalçın",
   ogImage: "/opengraph-image.png",
   description: "Full Stack Developer with 5+ years experience in web, mobile and backend development. Specializing in modern software architectures.",
