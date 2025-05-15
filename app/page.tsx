@@ -187,41 +187,44 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Contact */}
-        <section className="mb-6">
-          <h2 className="text-lg sm:text-xl font-bold mb-3">📞 Contact</h2>
-          <ul className="space-y-1.5 text-sm sm:text-base">
-            <li>
-              <strong>Phone:</strong>{" "}
-              <a href="tel:+905060668012" className="hover:underline break-all">
-                +90 506 066 80 12
-              </a>
-            </li>
-            <li>
-              <strong>Email:</strong>{" "}
-              <a href="mailto:hayyamyalcin@hotmail.com" className="hover:underline break-all">
-                hayyamyalcin@hotmail.com
-              </a>{" "}
-              /{" "}
-              <a href="mailto:hayyamyalcin@gmail.com" className="hover:underline break-all">
-                hayyamyalcin@gmail.com
-              </a>
-            </li>
-            <li>
-              <strong>GitHub:</strong>{" "}
-              <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:underline break-all">
-                github.com/yalcinhayyam
-              </a>
-            </li>
-            <li>
-              <strong>LinkedIn:</strong>{" "}
-              <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:underline break-all">
-                linkedin.com/in/hayyamyalcin
-              </a>
-            </li>
-          </ul>
-        </section>
-
+{/* Contact */}
+<section className="mb-6">
+  <h2 className="text-lg sm:text-xl font-bold mb-3">📞 Contact</h2>
+  <ul className="space-y-2 text-sm sm:text-base">
+    <li className="flex flex-col sm:flex-row gap-1">
+      <strong className="min-w-[60px]">Phone:</strong>
+      <a href="tel:+905060668012" className="hover:underline text-blue-600 dark:text-blue-400">
+        +90 506 066 80 12
+      </a>
+    </li>
+    <li className="flex flex-col">
+      <div className="flex flex-col sm:flex-row gap-1">
+        <strong className="min-w-[60px]">Email:</strong>
+        <div className="flex flex-col">
+          <a href="mailto:hayyamyalcin@hotmail.com" className="hover:underline text-blue-600 dark:text-blue-400">
+            hayyamyalcin@hotmail.com
+          </a>
+          <a href="mailto:hayyamyalcin@gmail.com" className="hover:underline text-blue-600 dark:text-blue-400">
+            hayyamyalcin@gmail.com
+          </a>
+        </div>
+      </div>
+    </li>
+    <li className="flex flex-col sm:flex-row gap-1">
+      <strong className="min-w-[60px]">GitHub:</strong>
+      <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600 dark:text-blue-400">
+        github.com/yalcinhayyam
+      </a>
+    </li>
+    <li className="flex flex-col sm:flex-row gap-1">
+      <strong className="min-w-[60px]">LinkedIn:</strong>
+      <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600 dark:text-blue-400">
+        linkedin.com/in/hayyamyalcin
+      </a>
+    </li>
+  </ul>
+</section>
+        
         {/* References */}
         <section className="mb-6">
           <h2 className="text-lg sm:text-xl font-bold mb-3">🧑‍⚖️ References</h2>
